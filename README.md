@@ -1,6 +1,6 @@
-# HRD Payroll & Attendance SaaS 🚀
+# Sistem Penggajian & SDM (HRD Payroll)
 
-Aplikasi berbasis web (*Software as a Service*) untuk manajemen absensi harian dan penggajian karyawan (HRD Payroll). 
+Aplikasi berbasis web untuk manajemen absensi harian dan penggajian karyawan (HRD Payroll). 
 
 Proyek ini dikembangkan untuk memenuhi tugas mata kuliah:
 1. **Pemrograman Client Server**
@@ -38,31 +38,30 @@ Sebelum menjalankan aplikasi, pastikan sistem Anda sudah terinstal:
 ---
 
 ## 🚀 Langkah Instalasi & Menjalankan Aplikasi
-<br>
 **1. Clone Repository**
 ```bash
 git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
 cd nama-repo-kamu
 ```
-<br>
+
 **2. Instalasi Dependencies (Backend)**
 Buka terminal dan masuk ke direktori backend:
-<br>
+
 ```Bash
 cd backend
 npm install argon2 cors dotenv express express-validator jsonwebtoken mysql2 sequelize
 npm install -D nodemon
 ```
-<br>
+
 **3. Konfigurasi Database**
-<br>
+
 Buka Laragon/XAMPP dan jalankan layanan MySQL.
-<br>
+
 Buat database baru di DBMS Anda (misalnya: db_hrd_payroll).
-<br>
+
 **4. Konfigurasi Environment Variables (.env)**
 Buat file baru bernama .env di dalam folder backend, lalu isi dengan konfigurasi berikut:
-<br>
+
 ```env
 DB_HOST=localhost
 DB_USER=root
@@ -72,14 +71,14 @@ PORT=3000
 JWT_SECRET=rahasia_sup3r_4m4n?
 ```
 (Sesuaikan DB_PASS jika MySQL Anda memiliki password, biarkan kosong jika default XAMPP/Laragon).
-<br>
-5. Jalankan Server Backend
+
+**5. Jalankan Server Backend**
 Pastikan Anda masih berada di dalam folder backend, lalu jalankan server:
-<br>
+
 ```Bash
 npm run dev
 ```
 Indikator sukses: Terminal akan menampilkan "Server jalan di: http://localhost:3000" dan "Database Sync Berhasil".
-<br>
-6. Jalankan Frontend
+
+**6. Jalankan Frontend**
 Buka folder frontend, lalu jalankan file index.html langsung ke browser, atau gunakan ekstensi Live Server di VS Code (http://127.0.0.1:5500).
