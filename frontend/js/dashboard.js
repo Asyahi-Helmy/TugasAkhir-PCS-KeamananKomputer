@@ -15,9 +15,10 @@ async function setupDashboard() {
 
     if (role === 'HRD') {
         document.getElementById('hrd-form-area').style.display = 'block';
-        loadPegawai();
+        document.getElementById('search-gaji').style.display = 'block'; 
     } else {
         document.getElementById('hrd-form-area').style.display = 'none';
+        document.getElementById('search-gaji').style.display = 'none'; 
     }
 
     showSection('dashboard-section');
