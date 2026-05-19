@@ -41,7 +41,7 @@ Sebelum menjalankan aplikasi, pastikan sistem Anda sudah terinstal:
 **1. Clone Repository**
 ```bash
 git clone https://github.com/Asyahi-Helmy/TugasAkhir-PCS-KeamananKomputer.git
-cd nama-repo-kamu
+cd TugasAkhir-PCS-KeamananKomputer
 ```
 
 **2. Instalasi Dependencies (Backend)**
