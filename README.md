@@ -60,6 +60,7 @@ Buka Laragon/XAMPP dan jalankan layanan MySQL.
 Buat database baru di DBMS Anda (misalnya: db_hrd_payroll).
 
 **4. Konfigurasi Environment Variables (.env)**
+
 Buat file baru bernama .env di dalam folder backend, lalu isi dengan konfigurasi berikut:
 
 ```env
@@ -73,6 +74,7 @@ JWT_SECRET=rahasia_sup3r_4m4n?
 (Sesuaikan DB_PASS jika MySQL Anda memiliki password, biarkan kosong jika default XAMPP/Laragon).
 
 **5. Jalankan Server Backend**
+
 Pastikan Anda masih berada di dalam folder backend, lalu jalankan server:
 
 ```Bash
@@ -81,4 +83,5 @@ npm run dev
 Indikator sukses: Terminal akan menampilkan "Server jalan di: http://localhost:3000" dan "Database Sync Berhasil".
 
 **6. Jalankan Frontend**
+
 Buka folder frontend, lalu jalankan file index.html langsung ke browser, atau gunakan ekstensi Live Server di VS Code (http://127.0.0.1:5500).
