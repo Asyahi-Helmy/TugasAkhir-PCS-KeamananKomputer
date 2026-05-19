@@ -40,7 +40,7 @@ Sebelum menjalankan aplikasi, pastikan sistem Anda sudah terinstal:
 ## 🚀 Langkah Instalasi & Menjalankan Aplikasi
 **1. Clone Repository**
 ```bash
-git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
+git clone https://github.com/Asyahi-Helmy/TugasAkhir-PCS-KeamananKomputer.git
 cd nama-repo-kamu
 ```
 
