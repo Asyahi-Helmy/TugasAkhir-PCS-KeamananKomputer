@@ -1,15 +1,10 @@
-# Mengabaikan folder node_modules di mana pun berada (termasuk di dalam backend)
+# Mengabaikan folder node_modules di mana pun berada
 node_modules/
 
-# Mengabaikan file environment variables (SANGAT PENTING UNTUK KEAMANAN)
+# Mengabaikan file environment variables
 .env
 backend/.env
 
 # Mengabaikan file log dari npm
 npm-debug.log
 npm-error.log
-
-# Mengabaikan file dari sistem operasi / IDE
-.vscode/
-.DS_Store
-Thumbs.db
