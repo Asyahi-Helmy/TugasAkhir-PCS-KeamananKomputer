@@ -25,7 +25,7 @@ const User = db.define('User', {
         defaultValue: 'Karyawan'
     }
 }, {
-    freezeTableName: true, // Biar nama tabelnya tetap 'User', nggak di-plural jadi 'Users'
+    freezeTableName: true,
     timestamps: true
 });
 

@@ -40,7 +40,7 @@ app.get('/users', verifyToken, isHRD, async (req, res) => {
 });
 
 // --- DAFTAR ROUTES ---
-app.use('/auth', authRoutes); // Semua route auth diawali dengan /auth
+app.use('/auth', authRoutes);
 app.use('/slip-gaji', slipGajiRoutes);
 app.use('/absensi', absensiRoutes);
 

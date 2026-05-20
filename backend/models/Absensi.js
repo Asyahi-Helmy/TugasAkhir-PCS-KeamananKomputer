@@ -1,7 +1,7 @@
 // models/Absensi.js
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
-const User = require('./User'); // Import model User buat relasi
+const User = require('./User');
 
 const Absensi = sequelize.define('Absensi', {
     id: {
@@ -14,7 +14,7 @@ const Absensi = sequelize.define('Absensi', {
         allowNull: false
     },
     tanggal: {
-        type: DataTypes.DATEONLY, // Cuma nyimpen YYYY-MM-DD
+        type: DataTypes.DATEONLY,
         allowNull: false
     },
     status: {

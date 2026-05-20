@@ -5,13 +5,12 @@ const showSection = (sectionId) => {
     document.getElementById('dashboard-section').style.display = 'none';
     document.getElementById(sectionId).style.display = 'flex';
     
-    // Khusus dashboard pakainya 'block' biar layout table flex didalemnya tidak rusak
     if(sectionId === 'dashboard-section') {
         document.getElementById(sectionId).style.display = 'block';
     }
 };
 
-// Navigasi Antar Tab SaaS Dashboard
+// Navigasi Antar
 const switchTab = (tabName) => {
     document.getElementById('tab-content-payroll').style.display = 'none';
     document.getElementById('tab-content-absensi').style.display = 'none';
