@@ -1,8 +1,3 @@
-/* ========================================
-   HRD PAYROLL - PROFESSIONAL CORPORATE STYLE
-   Modern | Clean | Responsive
-   ======================================== */
-
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap');
 
@@ -296,7 +291,7 @@ body {
 }
 
 /* ========================================
-   SUMMARY CARDS
+    SUMMARY CARDS
    ======================================== */
 .summary-grid {
     display: grid;
@@ -361,7 +356,7 @@ body {
 }
 
 /* ========================================
-   FORM CARDS
+    FORM CARDS
    ======================================== */
 .card {
     background: var(--card-bg);
@@ -422,7 +417,7 @@ body {
 }
 
 /* ========================================
-   BUTTONS (Corporate Style)
+    BUTTONS (Corporate Style)
    ======================================== */
 button {
     cursor: pointer;
@@ -516,7 +511,7 @@ button {
 }
 
 /* ========================================
-   TABLE STYLES (Clean Corporate)
+    TABLE STYLES (Clean Corporate)
    ======================================== */
 .table-card {
     overflow: hidden;
@@ -601,7 +596,7 @@ tbody tr:hover td {
 }
 
 /* ========================================
-   CLOCK WIDGET (Modern Glass)
+    CLOCK WIDGET (Modern Glass)
    ======================================== */
 .checkin-card {
     text-align: center;
@@ -637,7 +632,7 @@ tbody tr:hover td {
 }
 
 /* ========================================
-   RESPONSIVE DESIGN (Mobile First)
+    RESPONSIVE DESIGN (Mobile First)
    ======================================== */
 @media (max-width: 768px) {
     .container {
@@ -712,7 +707,8 @@ tbody tr:hover td {
         font-size: 2rem;
     }
 
-    th, td {
+    th,
+    td {
         padding: 10px 12px;
         font-size: 0.75rem;
     }
@@ -723,13 +719,14 @@ tbody tr:hover td {
 }
 
 /* ========================================
-   ANIMATIONS & UTILITIES
+    ANIMATIONS & UTILITIES
    ======================================== */
 @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -754,23 +751,23 @@ td button:hover {
     background: var(--bg-secondary);
 }
 
-/* Loading state styling (if exists) */
 .loading {
     opacity: 0.6;
     pointer-events: none;
 }
 
-/* Print styles for payroll reports */
 @media print {
     body {
         background: white;
     }
+
     .header-box button,
     .saas-tabs,
     .checkin-card button,
     .table-header .filter-group {
         display: none;
     }
+
     .card {
         box-shadow: none;
         border: 1px solid #ddd;
